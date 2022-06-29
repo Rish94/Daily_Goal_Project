@@ -1,0 +1,97 @@
+*{
+    background-color: coral;
+}
+
+.container{
+    background-color:rgb(255, 255, 255) ;
+    width: 80%;
+    min-height: 80vh;
+    margin: auto;
+    margin-top: 5px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container>h1{
+    text-align: center;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 1.5px;
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: brown;
+    width: 25vmax;
+}
+
+.container>h1:hover{
+    border-bottom: 1px solid crimson;
+}
+
+#title,#textarea{
+    width: 75%;
+    background-color: white;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px;
+    margin: 4px;
+    /* border-radius: 5%; */
+}
+
+#title:hover{
+    border: 2px solid crimson;
+}
+
+#textarea:hover{
+    border: 2px solid crimson;
+}
+
+.container>button{
+    width: 10vmax;
+    background-color: white;
+    margin: 20px;
+
+}
+
+.task{
+    width: 75%;
+    background-color: white;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 2px;
+    margin: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task>.deletebutton{
+    width: 5%;
+    height: 2%;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+
+.task>.deletebutton:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.textarea1{
+    min-width: 10vmax;
+    background-color: white;
+    padding: 3px;
+    margin: 4px;
+}
+
+#textareaelement,#textareaelement1{
+    min-width: 10vh;
+    background-color: white;
+    /* border: 1px solid rgb(0, 0, 0); */
+    padding: 2px;
+    margin: 4px;
+}
+
